@@ -17,7 +17,7 @@ By the end of the year, students will:
 
 | Week | Topic / Focus | Key Skills | Activity / Project |
 |------|---------------|------------|---------------------|
-| **1** | Introduction & Setup | MakeCode basics, inputs/outputs | Setup devices, simple "Hello World" on Micro:bit. |
+| **1** | Introduction & Setup | MakeCode basics, inputs/outputs | Setup devices, simple "[Hello World](./1-hello-world/README.md)" on Micro:bit. |
 | **2** | Buttons & Gestures | Input events (button press, shake) | Show icons or numbers based on buttons or shake. |
 | **3** | Motors, Lights, Sound | Cutebot motors, LEDs, buzzer | Move forward/back, turn, light up, make sound. |
 | **4** | Variables | Storing data, speed control | Press A/B to adjust and display speed. |
