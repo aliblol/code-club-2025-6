@@ -2,8 +2,8 @@
 > Open this page at [https://aliblol.github.io/code-club-2025-6/1-hello-world/](https://aliblol.github.io/code-club-2025-6/1-hello-world/)
 
 # Lesson 1: Hello World!
-- [Student Instructions](./student.md)
-- [Teacher Guidance](./teacher.md)
+- [Student Instructions](./1-hello-world/student.md)
+- [Teacher Guidance](./1-hello-world/teacher.md)
 
 #### Metadata (used for search, rendering)
 
