@@ -1,5 +1,4 @@
-
-> Open this page at [https://aliblol.github.io/code-club-2025-6/](https://aliblol.github.io/code-club-2025-6/)
+Open this page at [https://aliblol.github.io/code-club-2025-6/1-hello-world](https://aliblol.github.io/code-club-2025-6/1-hello-world)
 
 # Lesson 1: Hello World!
 - [Student Instructions](./student.md)
