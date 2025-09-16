@@ -1,14 +1,5 @@
 
-> Open this page at [https://aliblol.github.io/code-club-2025-6/](https://aliblol.github.io/code-club-2025-6/)
-
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/aliblol/code-club-2025-6/1-hello-world** and import
+> Open this page at [https://aliblol.github.io/code-club-2025-6/1-hello-world](https://aliblol.github.io/code-club-2025-6/1-hello-world)
 
 ## Edit this project
 

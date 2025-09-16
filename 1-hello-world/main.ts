@@ -1,4 +1,3 @@
-basic.showString("This is a test of hello world")
-basic.forever(function () {
-	
-})
+/**
+ * Show a string!
+ */
