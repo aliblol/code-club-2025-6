@@ -45,7 +45,8 @@ We'll start with the basics, like making the micro:bit **say hello**.
 ## 👋 Your First Program: Hello World!
 The "Hello World" program is a **simple project** where the micro:bit shows a message on its screen.
 
-
+- [Student Instructions](./student.md)
+- [Teacher Guidance](./teacher.md)
 
 ---
 
