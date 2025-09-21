@@ -42,12 +42,12 @@ It includes tips and teaching strategies for using button and gesture inputs on 
 ---
 
 ## Common Issues & Fixes
-| Problem | Solution |
-|----------|----------|
-| Micro:bit not connecting | Check cable or battery, try another USB port. |
-| Code not working | Ensure blocks are inside the correct event block (button/shake). |
-| Numbers not random | Make sure `pick random 1 to 6` is inside `show number`. |
-| Icons overlapping | Remind students each button needs its own event block. |
+| Problem                 | Solution                                             |
+|-------------------------|------------------------------------------------------|
+| Micro:bit not connecting | Check cable or battery. Try another USB port.       |
+| Code not working        | Ensure blocks are inside the correct event block (button/shake). |
+| Numbers not random      | Make sure `pick random 1 to 6` is inside `show number`. |
+| Icons overlapping       | Remind students each button needs its own event block. |
 
 ---
 
