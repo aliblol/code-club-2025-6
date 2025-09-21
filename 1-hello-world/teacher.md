@@ -36,6 +36,11 @@ It includes tips and teaching strategies for introducing the BBC Micro:bit.
 
 ---
 
-## Code Links
-- [Starter Code](starter-code.hex)
-- [Finished Code](finished-code.hex)
+## Demo Code Example
+- [Finished Code](main.ts)
+
+To edit this repository in MakeCode.
+
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* click on **Import** then click on **Import URL**
+* paste **https://github.com/aliblol/code-club-2025-6/1-hello-world** and click import
