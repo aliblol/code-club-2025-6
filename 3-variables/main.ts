@@ -1,39 +1,18 @@
-/**
- * Lesson 2: Buttons & Gestures Example Code
- */
-// Clear screen after a short delay
-function clearAfterDelay () {
-    basic.pause(500)
-    basic.clearScreen()
-}
-// Button A pressed → show arrow up
 input.onButtonPressed(Button.A, function () {
-    basic.showLeds(`
-        . . # . .
-        . # # # .
-        # . # . #
-        . . # . .
-        . . # . .
-        `)
-    clearAfterDelay()
+    count += 1
+    basic.showNumber(count)
 })
-// A+B pressed → show heart
 input.onButtonPressed(Button.AB, function () {
-    basic.showIcon(IconNames.Heart)
-    clearAfterDelay()
+    count = 0
+    basic.showNumber(count)
 })
-// Button B pressed → show arrow down
 input.onButtonPressed(Button.B, function () {
-    basic.showLeds(`
-        . . # . .
-        . . # . .
-        # . # . #
-        . # # # .
-        . . # . .
-        `)
-    clearAfterDelay()
+    count += -1
+    basic.showNumber(count)
 })
-// Shake gesture → dice
 input.onGesture(Gesture.Shake, function () {
-    basic.showNumber(randint(1, 6))
+    count = count * 2
+    basic.showNumber(count)
 })
+let count = 0
+basic.showNumber(count)
