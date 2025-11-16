@@ -19,12 +19,12 @@ By the end of the year, students will:
 |------|---------------|------------|---------------------|
 | **1** | [Introduction & Setup](./1-hello-world/README.md) | MakeCode basics, inputs/outputs | Setup devices, simple "Hello World" on Micro:bit. |
 | **2** | [Buttons & Gestures](./2-buttons-gestures/README.md) | Input events (button press, shake) | Show icons or numbers based on buttons or shake. |
-| **3** | Motors, Lights, Sound | Cutebot motors, LEDs, buzzer | Move forward/back, turn, light up, make sound. |
-| **4** | Variables | Storing data, speed control | Press A/B to adjust and display speed. |
+| **3** | Variables | Storing data, speed control | Press A/B to adjust and display speed. |
+| **4** | Radio Basics | Wireless communication | Send "Hello" between two Micro:bits. |
 | **5** | Conditionals | `if` / `else`, comparisons | Change behavior if speed > threshold or input detected. |
 | **6** | Loops | `repeat`, `forever`, loops with conditionals | Blink LEDs, repeat motion patterns. |
-| **7** | Sensors | Using sensors like light or ultrasonic | React to light or proximity sensor readings. |
-| **8** | Radio Basics | Wireless communication | Send "Hello" between two Micro:bits. |
+| **7** | Motors, Lights, Sound | Cutebot motors, LEDs, buzzer | Move forward/back, turn, light up, make sound. |
+| **8** | Sensors | Using sensors like light or ultrasonic | React to light or proximity sensor readings. |
 | **9** | Controller & Receiver Messaging | Send strings/numbers | Send commands: forward, back, left, right. |
 | **10** | Motors via Radio | Combine radio + movement | Car moves based on controller messages. |
 | **11** | Speed & Steering | Variables + radio | Add speed levels and steering to controls. |
