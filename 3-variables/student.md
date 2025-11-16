@@ -77,13 +77,18 @@ Go to **MakeCode for Micro:bit**: [https://makecode.microbit.org/](https://makec
 
 ---
 
-### 7. Extra Challenge (Optional)
+### 7. Extra Challenges (Optional)
 
 Try one of these:
 
-* Change A to add **+5** instead of +1.
-* Make a second variable called `score`.
 * Shake the Micro:bit to **double** the count.
+* Stop the counter from going below 0 or above 20.
+    *  If count < 0, set it to 0.
+    * If count > 20, set it to 20.
+* Make A+B set the count to a random number between 0 and 100.
+* Add milestones:
+    * When count reaches 10 → ⭐ icon
+    * When count reaches 20 → 🎉
 
 ---
 
