@@ -1,18 +1,13 @@
-input.onButtonPressed(Button.A, function () {
-    count += 1
-    basic.showNumber(count)
+radio.onReceivedNumber(function (receivedNumber) {
+    basic.showNumber(receivedNumber)
+    if (receivedNumber == 1) {
+        basic.showIcon(IconNames.Heart)
+    }
 })
-input.onButtonPressed(Button.AB, function () {
-    count = 0
-    basic.showNumber(count)
+input.onButtonPressed(Button.A, function () {
+    radio.sendNumber(1)
 })
 input.onButtonPressed(Button.B, function () {
-    count += -1
-    basic.showNumber(count)
+    radio.sendNumber(2)
 })
-input.onGesture(Gesture.Shake, function () {
-    count = count * 2
-    basic.showNumber(count)
-})
-let count = 0
-basic.showNumber(count)
+radio.setGroup(1)
