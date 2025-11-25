@@ -18,7 +18,7 @@ In this lesson, you'll learn how to use the **Radio** feature on the Micro:bit t
 ### 1. Open MakeCode Tutorial
 
 Go to:  
-http://makecode.microbit.org/#tutorial:https://github.com/aliblol/code-club-2025-6/radio
+https://makecode.microbit.org/#tutorial:26384-38314-84028-58451
 
 ---
 
