@@ -1,7 +1,7 @@
 
 > Open this page at [https://aliblol.github.io/code-club-2025-6/](https://aliblol.github.io/code-club-2025-6/)
 
-# Lesson 3: Varables
+# Lesson 4: Radio
 - [Student Instructions](./student.md)
 - [Teacher Guidance](./teacher.md)
 
@@ -11,7 +11,7 @@ To edit this repository in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/aliblol/code-club-2025-6/3-variables** and click import
+* paste **https://github.com/aliblol/code-club-2025-6/4-radio** and click import
 
 #### Metadata (used for search, rendering)
 
