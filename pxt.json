@@ -9,7 +9,7 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "4-radio/dice.md",
+        "4-radio.md",
         "README.md"
     ],
     "testFiles": [
