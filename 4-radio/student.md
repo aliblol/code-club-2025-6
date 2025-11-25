@@ -17,8 +17,9 @@ In this lesson, you'll learn how to use the **Radio** feature on the Micro:bit t
 
 ### 1. Open MakeCode Tutorial
 
-Go to:  
-https://makecode.microbit.org/#tutorial:26384-38314-84028-58451
+Happy to work through this on your own? Go to: [https://makecode.microbit.org/](https://makecode.microbit.org/)
+
+If you need some extra help click [here](https://makecode.microbit.org/#tutorial:26384-38314-84028-58451) instead
 
 ---
 
@@ -75,6 +76,8 @@ Now:
 
 ### 6. Extra Challenges (Optional)
 
+
+Check out [more radio games](https://makecode.microbit.org/projects/radio-games)
 Try one or more:
 
 * Send a **word instead of a number**  
@@ -87,7 +90,6 @@ Try one or more:
     * Only show the number if it matches a password.
 * Combine with variables for a multiplayer scoreboard.
 
-Check out https://makecode.microbit.org/projects/radio-games
 ---
 
 ## Reflection
