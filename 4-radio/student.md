@@ -87,6 +87,7 @@ Try one or more:
     * Only show the number if it matches a password.
 * Combine with variables for a multiplayer scoreboard.
 
+Check out https://makecode.microbit.org/projects/radio-games
 ---
 
 ## Reflection
