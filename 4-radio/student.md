@@ -15,19 +15,14 @@ In this lesson, you'll learn how to use the **Radio** feature on the Micro:bit t
 
 ## Steps
 
-### 1. Open MakeCode
+### 1. Open MakeCode Tutorial
 
 Go to:  
-https://makecode.microbit.org/
-
-### 2. Start a New Project
-
-* Click **New Project**
-* Name it: `Radio`
+http://makecode.microbit.org/#tutorial:https://github.com/aliblol/code-club-2025-6/4-radio
 
 ---
 
-### 3. Set the Radio Group
+### 2. Set the Radio Group
 
 Just like walkie-talkies, Micro:bits must be on the **same channel** to communicate.
 
@@ -38,7 +33,7 @@ Just like walkie-talkies, Micro:bits must be on the **same channel** to communic
 
 ---
 
-### 4. Send a Message (Button A)
+### 3. Send a Message (Button A)
 
 * Go to **Input** → drag **on button A pressed**.
 * Go to **Radio** → drag `radio send number 1`.
@@ -49,7 +44,7 @@ Just like walkie-talkies, Micro:bits must be on the **same channel** to communic
 
 ---
 
-### 5. Receive Messages
+### 4. Receive Messages
 
 Now make the Micro:bit show something when it receives a radio message.
 
@@ -64,7 +59,7 @@ Now make the Micro:bit show something when it receives a radio message.
 
 ---
 
-### 6. Send a Different Message (Button B)
+### 5. Send a Different Message (Button B)
 
 Let’s add a second button:
 
@@ -78,7 +73,7 @@ Now:
 
 ---
 
-### 7. Extra Challenges (Optional)
+### 6. Extra Challenges (Optional)
 
 Try one or more:
 

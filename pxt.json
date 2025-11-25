@@ -1,24 +1,22 @@
 {
-    "name": "code-club-2025-6-4-radio",
+    "name": "code-club-2025-6",
+    "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*",
-        "code-club-2025-6": "github:aliblol/code-club-2025-6"
+        "microphone": "*"
     },
     "files": [
         "main.blocks",
-        "student.md",
-        "teacher.md",
-        "github.md",
         "main.ts",
+        "4-radio.md",
         "README.md"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "8.0.18",
+        "target": "8.0.16",
         "targetId": "microbit"
     },
     "supportedTargets": [
