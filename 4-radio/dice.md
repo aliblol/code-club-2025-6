@@ -4,7 +4,6 @@
 
 Let's create some digital 🎲 dice 🎲 with our micro:bit!
 
-![A microbit dice](/static/mb/projects/dice.png)
 
 ## {Step 1}
 
