@@ -20,8 +20,8 @@ By the end of the year, students will:
 | **1** | [Introduction & Setup](./1-hello-world/README.md) | MakeCode basics, inputs/outputs | Setup devices, simple "Hello World" on Micro:bit. |
 | **2** | [Buttons & Gestures](./2-buttons-gestures/README.md) | Input events (button press, shake) | Show icons or numbers based on buttons or shake. |
 | **3** | [Variables](./3-variables/README.md) | Storing data, speed control | Press A/B to adjust and display speed. |
-| **4** | [Radio Basics](./4-radio/github.md) | Wireless communication | Send "Hello" between two Micro:bits. |
-| **5** | Conditionals | `if` / `else`, comparisons | Change behavior if speed > threshold or input detected. |
+| **4** | [Radio Basics](./4-radio/README.md) | Wireless communication | Send "Hello" between two Micro:bits. |
+| **5** | [Conditionals](./5-conditionals/README.md) | `if` / `else`, comparisons | Change behavior if speed > threshold or input detected. |
 | **6** | Loops | `repeat`, `forever`, loops with conditionals | Blink LEDs, repeat motion patterns. |
 | **7** | Motors, Lights, Sound | Cutebot motors, LEDs, buzzer | Move forward/back, turn, light up, make sound. |
 | **8** | Sensors | Using sensors like light or ultrasonic | React to light or proximity sensor readings. |

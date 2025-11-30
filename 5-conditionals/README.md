@@ -1,49 +1,19 @@
-# Lesson 4: Radio Messaging
 
-In this lesson, you'll learn how to use the **Radio** feature on the Micro:bit to send and receive messages **wirelessly** between two or more Micro:bits. By the end, you’ll make a simple **wireless chat system** that sends numbers or short messages from one Micro:bit to another.
+> Open this page at [https://aliblol.github.io/code-club-2025-6/](https://aliblol.github.io/code-club-2025-6/)
 
----
+# Lesson 5: Conditionals
+- [Student Instructions](./student.md)
+- [Teacher Guidance](./teacher.md)
 
-## What You'll Learn
+## Edit this project
 
-* What the **radio** is and how it works.
-* How to set a **radio group** so Micro:bits can talk to each other.
-* How to **send messages or numbers** wirelessly.
-* How to **receive and display messages**.
+To edit this repository in MakeCode.
 
----
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* click on **Import** then click on **Import URL**
+* paste **https://github.com/aliblol/code-club-2025-6/5-conditionals** and click import
 
-## {Step 1 @fullscreen}
+#### Metadata (used for search, rendering)
 
-Click on the ``||basic:Basic||`` category in the Toolbox. 
-Drag the ``||basic:show leds||`` block into the ``||basic:forever||`` block. 
-Then in the ``||basic:show leds||`` block, click on the squares to draw a heart design.
-
-## {Step 2}
-
-Drag another ``||basic:show leds||`` block underneath the first.
-
-```blocks
-basic.forever(function() {
-    basic.showLeds(`
-        . # . # .
-        # # # # #
-        # # # # #
-        . # # # .
-        . . # . .`);
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .`);
-})
-```
-
-## {Step 3}
-
-Look at the @boardname@ on the screen. Do you see a flashing heart animation? ⭐ Great job! ⭐ 
-
-## {Step 4}
-
-If you have a @boardname@ device, connect it to your computer and click the ``|Download|`` button. Follow the instructions to transfer your code onto the @boardname@ and watch the hearts flash! 
+* for PXT/microbit
+<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
