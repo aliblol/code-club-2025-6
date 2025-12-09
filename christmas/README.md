@@ -9,9 +9,9 @@ Your card should:
 # ✨ Path 1: HTML/CSS Festive Card
 - Open a new HTML file.
 - Add a heading with your festive message:
-<h1>Happy Holidays!</h1>
+```<h1>Happy Holidays!</h1>```
 - Style it with CSS:
-body {
+```body {
   background: linear-gradient(to bottom, #003366, #66ccff);
   color: white;
   text-align: center;
@@ -23,7 +23,7 @@ h1 {
 @keyframes glow {
   from { text-shadow: 0 0 5px white; }
   to { text-shadow: 0 0 20px gold; }
-}
+}```
 - Add extras:
 - Snowflakes using div elements with CSS animations.
 - A festive image (tree, star, snowman).
@@ -46,7 +46,7 @@ h1 {
 - Create a new project.
 - Add a sprite for your festive character (Santa, snowman, tree).
 - Show a message:
-game.splash("Happy Holidays!")
+```game.splash("Happy Holidays!")```
 - Animate:
 - Move sprites across the screen.
 - Add snowflakes falling (small sprites moving downward).
