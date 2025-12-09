@@ -10,7 +10,9 @@ Your card should:
 - Open a new HTML file.
 - Add a heading with your festive message
 Example code:
-```<!doctype html>
+<pre>
+<code> class="html">
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
@@ -80,7 +82,8 @@ Example code:
 
 </style>
   <p style="font-size:12px; color:#6b7280; margin-top:12px;">From Alice :) </p>
-```
+</code>
+</pre>
 - Add extras:
 - Snowflakes using div elements with CSS animations.
 - A festive image (tree, star, snowman).
