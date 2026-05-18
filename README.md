@@ -13,7 +13,10 @@ A hands-on robotics project where students design and code a wireless controller
 
 ### **Arcade Project**
 A game development project where students create games using MakeCode Arcade.
-- [Coin Collector Presentation](./coin%20collector/index.html)
+
+| Game | Student Guide | Teacher Guide | Presentation |
+|------|---------------|---------------|--------------|
+| **Coin Collector** | [Student Guide](./coin%20collector/student.md) | [Teacher Guide](./coin%20collector/teacher.md) | [View Slides](./coin%20collector/index.html) |
 
 ---
 
