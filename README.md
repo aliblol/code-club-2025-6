@@ -1,14 +1,28 @@
-# BBC Micro:bit & Cutebot Code Club Roadmap 2025/6
+# Code Club 2025/6 - Two Projects
 
-This roadmap outlines approximately 20 weeks of 30-minute sessions for a Year 5/6 coding club. By the end of the year, students will design and code a **controller** and **race car** using BBC Micro:bit, Cutebot, and MakeCode.
+This roadmap outlines approximately 20 weeks of 30-minute sessions for a Year 5/6 coding club. Students will work on **two projects** throughout the year:
+1. **Cutebot Project:** Design and code a wireless controller and race car using BBC Micro:bit and Cutebot
+2. **Arcade Project:** Build games using MakeCode Arcade (starting with Coin Collector)
+
+---
+
+## **Projects**
+
+### **Cutebot Project**
+A hands-on robotics project where students design and code a wireless controller and race car using BBC Micro:bit and Cutebot.
+
+### **Arcade Project**
+A game development project where students create games using MakeCode Arcade.
+- [Coin Collector Presentation](./coin%20collector/index.html)
 
 ---
 
 ## **Learning Goals**
 By the end of the year, students will:
 - Understand key programming concepts: variables, conditionals, loops, events.
-- Use MakeCode to code Micro:bits and control Cutebots.
+- Use MakeCode to code Micro:bits, control Cutebots, and create arcade games.
 - Create a working wireless controller + race car.
+- Design and build interactive arcade games.
 - Test, debug, and refine their code.
 
 ---
