@@ -16,7 +16,7 @@ A game development project where students create games using MakeCode Arcade.
 
 | Game | Student Guide | Teacher Guide | Presentation |
 |------|---------------|---------------|--------------|
-| **Coin Collector** | [Student Guide](./coin%20collector/student.md) | [Teacher Guide](./coin%20collector/teacher.md) | [View Slides](./coin%20collector/index.html) |
+| **Coin Collector** | [Student Guide](./coin-collector/student.md) | [Teacher Guide](./coin-collector/teacher.md) | [View Slides](./coin-collector/index.html) |
 
 ---
 
