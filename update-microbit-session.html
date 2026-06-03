@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Classroom Session - Coin Collector</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 15px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .info-box {
+            background: #f0f7ff;
+            border-left: 4px solid #0066cc;
+            padding: 15px;
+            border-radius: 6px;
+            font-size: 13px;
+            color: #333;
+            line-height: 1.6;
+        }
+        .info-box.success {
+            background: #d4edda;
+            border-left-color: #155724;
+            color: #155724;
+        }
+        .info-box.warning {
+            background: #fff3cd;
+            border-left-color: #856404;
+            color: #856404;
+        }
+        .info-box strong {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .steps {
+            counter-reset: step-counter;
+            list-style: none;
+        }
+        .steps li {
+            counter-increment: step-counter;
+            margin-bottom: 20px;
+            padding-left: 40px;
+            position: relative;
+        }
+        .steps li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: #667eea;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .steps li strong {
+            display: block;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .steps li p {
+            color: #666;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .code-block {
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 12px;
+            font-family: "Monaco", "Menlo", "Ubuntu Mono", monospace;
+            font-size: 12px;
+            margin: 10px 0;
+            overflow-x: auto;
+            color: #333;
+        }
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Latest Session File</h1>
+        <p class="subtitle">Code Club 2025/6 — Coin Collector</p>
+
+        <div class="section">
+            <div class="info-box success">
+                <strong>✅ This is the latest classroom session file</strong>
+                Use this file to continue where the last session left off.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">📥 How to Use This File</div>
+            <ol class="steps">
+                <li>
+                    <strong>Open the latest session file</strong>
+                    <p>Click the "Continue classroom session" button on this page (or open it in a browser).</p>
+                </li>
+                <li>
+                    <strong>Work in micro:bit Classroom</strong>
+                    <p>Code and test your Arcade game. When you're done, save your changes.</p>
+                </li>
+                <li>
+                    <strong>Export your updated session</strong>
+                    <p>In micro:bit Classroom, click your name and select "Save my session" to download the updated HTML file.</p>
+                </li>
+                <li>
+                    <strong>Save it back to the repository</strong>
+                    <p>Message Alice with your updated file, or see instructions below to update it yourself.</p>
+                </li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <div class="section-title">💾 Saving Your Session Back</div>
+            <div class="info-box warning">
+                <strong>Choose one of these options:</strong>
+            </div>
+            
+            <div style="margin-top: 15px; padding: 15px; background: #f9f9f9; border-radius: 6px;">
+                <p style="color: #333; font-weight: 600; margin-bottom: 10px;">🎯 Option 1: Ask Alice</p>
+                <p style="color: #666; font-size: 13px; line-height: 1.6;">
+                    Email or message your updated session file to Alice. She'll save it to the repository so everyone has the latest version next week.
+                </p>
+            </div>
+
+            <div style="margin-top: 15px; padding: 15px; background: #f9f9f9; border-radius: 6px;">
+                <p style="color: #333; font-weight: 600; margin-bottom: 10px;">🛠️ Option 2: Update Yourself (Advanced)</p>
+                <p style="color: #666; font-size: 13px; margin-bottom: 10px;">
+                    If you're comfortable with the command line:
+                </p>
+                <div class="code-block">python3 update-microbit-session.py /path/to/your/saved/file.html</div>
+                <p style="color: #666; font-size: 13px; margin-top: 10px;">
+                    This validates your file and saves it to the repository. Backups are created automatically.
+                </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">❓ Need Help?</div>
+            <div class="info-box">
+                <p style="margin-bottom: 10px;"><strong>File won't open?</strong> Make sure you're using the latest browser (Chrome, Firefox, Safari, or Edge).</p>
+                <p style="margin-bottom: 10px;"><strong>Lost your session?</strong> Ask Alice for the backup file—it's always safe.</p>
+                <p><strong>Other issues?</strong> Reach out to Alice for support.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
