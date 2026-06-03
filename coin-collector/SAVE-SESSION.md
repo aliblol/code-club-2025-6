@@ -4,17 +4,20 @@ This guide helps you save your micro:bit Arcade code week-to-week.
 
 ## Why Save Your Session?
 
-When working in **micro:bit Classroom**, your code is only saved in the browser. By saving and sharing your session file, you can:
+When working in **micro:bit Classroom**, your code is only saved in the browser. By saving your session file, you can:
 - ✅ Keep your progress safe
 - ✅ Continue where you left off next week
 - ✅ Pick up on a different computer
 
-## How to Save & Update Your Session
+## How to Access the Latest Session
 
 ### **Each Week:**
 
 #### 1️⃣ **At the Start of Class**
-- Open the [**Latest Session File**](../update-microbit-session.html)
+- Go to the [**Session Files Guide**](../update-microbit-session.html)
+- Open the `microbit classrom files` folder
+- Find the file with the **most recent date** in its name
+- Open it in your web browser
 - Click **"Continue classroom session"** to resume in micro:bit Classroom
 - Your code from last week will be there!
 
@@ -22,31 +25,35 @@ When working in **micro:bit Classroom**, your code is only saved in the browser.
 - In **micro:bit Classroom**, save your session:
   - Click your name in the top-right
   - Select **"Save my session"**
-  - Save the downloaded `.html` file
-- **Message Alice** with your updated file, or use the Python script:
-  ```
-  python3 update-microbit-session.py /path/to/your/saved/file.html
-  ```
+  - A file will download
+- Move the downloaded file to the `microbit classrom files` folder
+- Rename it to include today's date (e.g., `arcade - microbit classroom session - 2026-06-03.html`)
 
 ## File Management Tips
 
-- 💾 **Keep it safe:** Save your downloaded files to a safe folder
-- 📝 **File naming:** Rename files like `coin-collector-week-3.html` to track weeks
-- ⚠️ **Always send the latest:** When sharing with Alice, make sure it's your most recent session
+- 📁 **Location:** Files are stored in `coin-collector/microbit classrom files/`
+- 📝 **File naming:** Files automatically include the date saved (YYYY-MM-DD)
+- 🔍 **Always pick the latest:** Before starting, check the folder for the file with the most recent date
+- ⚠️ **Keep all files:** Don't delete old files—they're useful as backups
 
 ## Troubleshooting
+
+### I can't find the latest file
+- Check the `microbit classrom files` folder
+- Look at the date in the filename (format: 2026-06-03)
+- Pick the one with the most recent date
 
 ### File won't open
 - Make sure you're using a modern browser (Chrome, Firefox, Safari, or Edge)
 - Check that the file downloaded completely
 
-### I lost my session file
-- Ask Alice—she keeps backups!
+### I lost my session files
+- Ask Alice—she keeps backups of all files!
 - You can start fresh and begin coding again
 
 ## Questions?
 
-Ask Alice if you need help or have questions!
+Ask Alice or check the [Session Files Guide](../update-microbit-session.html) for more info.
 
 ---
 

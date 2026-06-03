@@ -135,55 +135,69 @@
 
         <div class="section">
             <div class="info-box success">
-                <strong>✅ This is the latest classroom session file</strong>
-                Use this file to continue where the last session left off.
+                <strong>✅ Session files are ready</strong>
+                Find the latest classroom session in the <code>microbit classrom files</code> folder.
             </div>
         </div>
 
         <div class="section">
-            <div class="section-title">📥 How to Use This File</div>
+            <div class="section-title">📥 How to Use</div>
             <ol class="steps">
                 <li>
-                    <strong>Open the latest session file</strong>
-                    <p>Click the "Continue classroom session" button on this page (or open it in a browser).</p>
+                    <strong>Find the latest session file</strong>
+                    <p>Open the <code>coin-collector/microbit classrom files</code> folder. Look for the file with the most recent date in its name (e.g., <code>arcade - microbit classroom session - 2026-06-03-2.html</code>).</p>
                 </li>
                 <li>
-                    <strong>Work in micro:bit Classroom</strong>
-                    <p>Code and test your Arcade game. When you're done, save your changes.</p>
+                    <strong>Open the file in your browser</strong>
+                    <p>Double-click the latest HTML file to open it in your default web browser.</p>
                 </li>
                 <li>
-                    <strong>Export your updated session</strong>
-                    <p>In micro:bit Classroom, click your name and select "Save my session" to download the updated HTML file.</p>
+                    <strong>Click "Continue classroom session"</strong>
+                    <p>This will open micro:bit Classroom and load your students' code from the last session.</p>
                 </li>
                 <li>
-                    <strong>Save it back to the repository</strong>
-                    <p>Message Alice with your updated file, or see instructions below to update it yourself.</p>
+                    <strong>Work and save your updates</strong>
+                    <p>Code and test. When done, click your name in micro:bit Classroom and select "Save my session" to download the updated file.</p>
+                </li>
+                <li>
+                    <strong>Move the new file to the folder</strong>
+                    <p>Save your downloaded session file to <code>coin-collector/microbit classrom files</code> folder with today's date in the name.</p>
                 </li>
             </ol>
         </div>
 
         <div class="section">
-            <div class="section-title">💾 Saving Your Session Back</div>
+            <div class="section-title">💾 File Organization</div>
+            <div class="info-box">
+                <p><strong>Location:</strong> <code>coin-collector/microbit classrom files/</code></p>
+                <p style="margin-top: 10px;"><strong>Naming:</strong> Each file includes today's date, like:</p>
+                <p style="font-family: monospace; margin-top: 5px;">arcade - microbit classroom session - 2026-06-03-2.html</p>
+                <p style="margin-top: 10px;"><strong>Pick the latest:</strong> Compare dates in the filename to find the most recent session.</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">💾 Saving Updated Sessions</div>
             <div class="info-box warning">
-                <strong>Choose one of these options:</strong>
+                <strong>After each session, save the updated file</strong>
             </div>
             
             <div style="margin-top: 15px; padding: 15px; background: #f9f9f9; border-radius: 6px;">
-                <p style="color: #333; font-weight: 600; margin-bottom: 10px;">🎯 Option 1: Ask Alice</p>
+                <p style="color: #333; font-weight: 600; margin-bottom: 10px;">🎯 Option 1: Manual Save (Recommended for teachers)</p>
                 <p style="color: #666; font-size: 13px; line-height: 1.6;">
-                    Email or message your updated session file to Alice. She'll save it to the repository so everyone has the latest version next week.
+                    After the session ends, when you save your session from micro:bit Classroom, move the downloaded file to the <code>coin-collector/microbit classrom files</code> folder. Include today's date in the filename.
                 </p>
             </div>
 
             <div style="margin-top: 15px; padding: 15px; background: #f9f9f9; border-radius: 6px;">
-                <p style="color: #333; font-weight: 600; margin-bottom: 10px;">🛠️ Option 2: Update Yourself (Advanced)</p>
+                <p style="color: #333; font-weight: 600; margin-bottom: 10px;">🛠️ Option 2: Automated Script</p>
                 <p style="color: #666; font-size: 13px; margin-bottom: 10px;">
-                    If you're comfortable with the command line:
+                    Use the Python script to automatically find and verify the latest session:
                 </p>
-                <div class="code-block">python3 update-microbit-session.py /path/to/your/saved/file.html</div>
+                <div class="code-block">python3 find-latest-session.py</div>
                 <p style="color: #666; font-size: 13px; margin-top: 10px;">
-                    This validates your file and saves it to the repository. Backups are created automatically.
+                    Or validate and update with:
                 </p>
+                <div class="code-block">python3 update-microbit-session.py /path/to/your/downloaded/session.html</div>
             </div>
         </div>
 
